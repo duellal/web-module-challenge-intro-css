@@ -3,6 +3,7 @@
     padding:0;
     margin:0;
     max-width: 100%;
+    border: 1px solid black;
 }
 
 html{
@@ -20,17 +21,23 @@ h1{
     font-size: 4.5rem;
     text-align: center;
     padding: 2%;
+    font-weight: lighter;
 }
 
 h2{
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     text-align: center;
     padding: 1% 0;
+    font-weight:lighter;
 }
 
 h3 {
     font-size: 1rem;
     text-align: center;
+}
+
+span {
+    font-weight: bolder;
 }
 
 header nav{
@@ -56,7 +63,6 @@ a {
     justify-content: center;
     padding:0.75% 1.5%;
     border-radius: 10px;
-    font-weight: bold;
 }
 .orange-button {
     background-color: #FF764E;
@@ -78,29 +84,20 @@ a {
     align-items: center;
 }
 
-.top-section {
-    display: flex;
-    width: 100%;
-    padding: 2%;
-} 
-
-.left-img-area {
-    width:25%;
-    padding
-}
-
 .round-img{
     border-radius: 100%;
+    width:28%;
 }
 
 .information-right{
     width:75%;
+    padding: 0 1%;
 }
 
 .boxed-info{
     background-color: #DDB9A3;
     color: white;
-    padding: 1% 2%;
+    padding: .5% 1%;
     text-align: center;
     margin: 0 4%;
 }
@@ -109,6 +106,28 @@ a {
     text-align: center;
 }
 
+.fire-img {
+    width:20%;
+}
+
 .camper{
     text-align: center;
+    padding: 2% 0;
+}
+
+.camper-img {
+    width: 20%;
+}
+
+.bottom-img{
+    background-image: url('../assets/footer_img.jpg');
+    height: 30vh;
+    background-size: 100%;
+}
+
+footer nav{
+    position:relative;
+    width: 100%;
+    background-color: white;
+    padding:3% 0;
 }
